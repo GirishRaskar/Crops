@@ -119,7 +119,7 @@
 </head>
 <body>
   <div class="container py-4">
-    <h2 class="mb-3">🌾 Crop Sowing Progress<?= esc($current_year) ?></h2>
+    <h2 class="mb-3">🌾 Crop Sowing Progress <?= esc($current_year) ?></h2>
     <p class="text-muted">📅 Last updated: <?= esc($last_updated) ?></p>
 
     <div class="insight-box">
