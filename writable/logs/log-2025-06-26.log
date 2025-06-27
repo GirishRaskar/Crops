@@ -1,0 +1,156 @@
+CRITICAL - 2025-06-26 14:33:59 --> ParseError: syntax error, unexpected variable "$crops", expecting "function" or "const"
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CropController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CropController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\CropController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:35:30 --> ParseError: syntax error, unexpected variable "$crops", expecting "function" or "const"
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CropController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CropController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\CropController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:36:34 --> ErrorException: Undefined variable $crops
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 36.
+ 1 APPPATH\Controllers\CropController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crops', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:36:36 --> ErrorException: Undefined variable $crops
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 36.
+ 1 APPPATH\Controllers\CropController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crops', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:37:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "crop_view.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crop_view.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('crop_view', [], true)
+ 3 APPPATH\Controllers\CropController.php(47): view('crop_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:37:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "crop_view.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crop_view.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('crop_view', [], true)
+ 3 APPPATH\Controllers\CropController.php(47): view('crop_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:38:11 --> ErrorException: Undefined variable $crops
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 36.
+ 1 APPPATH\Controllers\CropController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crops', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:38:59 --> ErrorException: Undefined variable $crops
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 36.
+ 1 APPPATH\Controllers\CropController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crops', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:39:00 --> ErrorException: Undefined variable $crops
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 36.
+ 1 APPPATH\Controllers\CropController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crops', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:39:08 --> ErrorException: Undefined variable $crops
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 36.
+ 1 APPPATH\Controllers\CropController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crops', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:40:59 --> ErrorException: Undefined variable $percent
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 46.
+ 1 APPPATH\Controllers\CropController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percent', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:41:00 --> ErrorException: Undefined variable $percent
+[Method: GET, Route: /]
+in APPPATH\Controllers\CropController.php on line 46.
+ 1 APPPATH\Controllers\CropController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percent', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 14:42:15 --> ErrorException: Undefined array key "lastUpdated"
+[Method: GET, Route: /]
+in APPPATH\Views\cropView\index.php on line 88.
+ 1 APPPATH\Views\cropView\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lastUpdated"', 'C:\\xampp\\htdocs\\crops\\app\\Views\\cropView\\index.php', 88)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crops\\app\\Views\\cropView\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('cropView/index', [], true)
+ 5 APPPATH\Controllers\CropController.php(58): view('cropView/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 17:00:26 --> ErrorException: Undefined variable $comparison_date
+[Method: GET, Route: /]
+in APPPATH\Views\cropView\index.php on line 92.
+ 1 APPPATH\Views\cropView\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comparison_date', 'C:\\xampp\\htdocs\\crops\\app\\Views\\cropView\\index.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crops\\app\\Views\\cropView\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('cropView/index', [], true)
+ 5 APPPATH\Controllers\CropController.php(50): view('cropView/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
