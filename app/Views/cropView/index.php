@@ -117,6 +117,8 @@
     <footer class="footer-note text-center small">
       <hr>
       <p>This insight compares year-on-year sowing progress to guide crop choices and market expectations.</p>
+      <br>
+      <p class="mt-2">&copy; <?= date('Y') ?> <?= esc($app_owner ?? 'Your Name or Startup') ?>. All rights reserved.</p>
     </footer>
   </div>
 </body>
