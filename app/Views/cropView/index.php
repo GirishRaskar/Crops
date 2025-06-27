@@ -119,12 +119,12 @@
 </head>
 <body>
   <div class="container py-4">
-    <h2 class="mb-3">🌾 Crop Sowing Progress <?= esc($current_year) ?></h2>
+    <h2 class="mb-3">🌾 Crop Sowing Progress<?= esc($current_year) ?></h2>
     <p class="text-muted">📅 Last updated: <?= esc($last_updated) ?></p>
 
     <div class="insight-box">
       <p class="mb-0">
-        This dashboard compares sowing progress <strong>as of <?= esc($data_date) ?> </strong>
+        This dashboard compares sowing progress in <strong>INDIA as of <?= esc($data_date) ?> </strong>
         with the same period in <strong><?= esc($comparison_year) ?></strong>. Also shows current year's progress relative to the normal sown area.
       </p>
     </div>
