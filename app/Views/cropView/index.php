@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" href="<?= base_url('public/logo.png') ?>">
 
   
-  <title>Kharif <?= esc($current_year) ?></title>
+  <title>Crop Sowing Progress <?= esc($current_year) ?></title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -119,7 +119,7 @@
 </head>
 <body>
   <div class="container py-4">
-    <h2 class="mb-3">🌾 Kharif <?= esc($current_year) ?></h2>
+    <h2 class="mb-3">🌾 Crop Sowing Progress <?= esc($current_year) ?></h2>
     <p class="text-muted">📅 Last updated: <?= esc($last_updated) ?></p>
 
     <div class="insight-box">
