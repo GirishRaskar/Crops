@@ -1,0 +1,26 @@
+CRITICAL - 2025-06-29 19:26:14 --> ErrorException: file_get_contents(https://data.upag.gov.in/api/v1/upag/api-data-share/sources/user-allowed-sources): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[Method: GET, Route: api]
+in APPPATH\Controllers\CropController.php on line 86.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://data.upag.gov.in/api/v1/upag/api-data-share/sources/user-allowed-sources): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 86)
+ 2 APPPATH\Controllers\CropController.php(86): file_get_contents('https://data.upag.gov.in/api/v1/upag/api-data-share/sources/user-allowed-sources')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->test_upag_api()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-29 19:26:30 --> ErrorException: file_get_contents(https://data.upag.gov.in/api/v1/upag/api-data-share/sources/user-allowed-sources): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[Method: GET, Route: api]
+in APPPATH\Controllers\CropController.php on line 86.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://data.upag.gov.in/api/v1/upag/api-data-share/sources/user-allowed-sources): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\crops\\app\\Controllers\\CropController.php', 86)
+ 2 APPPATH\Controllers\CropController.php(86): file_get_contents('https://data.upag.gov.in/api/v1/upag/api-data-share/sources/user-allowed-sources')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CropController->test_upag_api()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CropController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
